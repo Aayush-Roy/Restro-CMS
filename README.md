@@ -279,12 +279,7 @@ Set the following variables in your deployment platform:
 - Regular security updates
 - Input sanitization
 
-## 📞 Support
 
-For questions and support:
-- Email: support@workmanage.com
-- Documentation: [Link to docs]
-- GitHub Issues: [Repository link]
 
 ## 📄 License
 
@@ -292,4 +287,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Built with ❤️ by the WorkManage Team
+Built with ❤️ by Aayush 
