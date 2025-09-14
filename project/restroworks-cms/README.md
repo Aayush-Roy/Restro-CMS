@@ -279,12 +279,7 @@ Set the following variables in your deployment platform:
 - Regular security updates
 - Input sanitization
 
-## 📞 Support
 
-For questions and support:
-- Email: support@workmanage.com
-- Documentation: [Link to docs]
-- GitHub Issues: [Repository link]
 
 ## 📄 License
 
