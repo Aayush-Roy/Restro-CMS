@@ -68,7 +68,7 @@ export default function Testimonials({ locale = "en" }) {
         setTestimonials([, ...cmsTestimonials]);
       } catch (err) {
         console.error("Error fetching testimonials:", err);
-        setTestimonials(hardcodedTestimonials[locale]);
+        setTestimonials(hardcodedTestimonials[locale],...hardcodedTestimonials[locale]);
       }
     }
     fetchTestimonials();
