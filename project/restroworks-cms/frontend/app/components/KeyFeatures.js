@@ -394,7 +394,7 @@ export default function KeyFeatures({ locale = "en" }) {
                   <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 max-w-md mx-auto">
                     <div className="bg-gradient-to-br from-primary-50 to-purple-50 rounded-xl p-6 h-64 flex items-center justify-center">
                       <img
-                        src={feature.image}
+                        src={feature.image || "https://i.pinimg.com/1200x/5c/6a/6d/5c6a6d0301399d4da2920c6875aa4e48.jpg"}
                         alt={feature.title}
                         className="w-full h-full object-cover rounded-xl"
                       />
