@@ -1,0 +1,37 @@
+{
+  "name": "restroworks-cms-backend",
+  "version": "1.0.0",
+  "description": "PayloadCMS backend for RestroWorks",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "cross-env NODE_ENV=production payload build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "generate:types": "payload generate:types",
+    "payload": "cross-env NODE_ENV=development payload"
+  },
+  "dependencies": {
+    "@payloadcms/bundler-webpack": "^1.0.7",
+    "@payloadcms/db-mongodb": "^1.5.1",
+    "@payloadcms/richtext-slate": "^1.5.2",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "payload": "^2.8.0",
+    "sharp": "^0.34.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "payload",
+    "cms",
+    "mongodb",
+    "express"
+  ],
+  "author": "WorkManage Team",
+  "license": "MIT"
+}
